@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Progress</title>
+
+	<link rel="shortcut icon" href="/styles/images/favicon.jpg">
+	<link rel="icon" href="/styles/images/favicon.jpg">
+
+	<!-- about us:head -->
+	<link rel="stylesheet" href="/styles/css/owl.carousel.css">
+	<link rel="stylesheet" href="/styles/css/style.css">
+	<link rel="stylesheet" href="/styles/css/bootstrap.css">
+
+	<link rel="stylesheet" href="/styles/css/index.css">
+	<link rel="stylesheet" href="/styles/css/fontawesome/css/font-awesome.min.css">
+	<link rel="canonical" href="/progress/">
+	<link rel="alternate" type="application/rss+xml" title="Team Grape" href="/feed.xml">
+
+	<meta name="description" content="Group V; GRP blog">
+
+	<script src="/styles/js/jquery.min.js"></script>
+	<script src="/styles/js/jquery-2.1.4.min.js"></script>
+	<!-- head -->
+
+	<!--[if lt IE 9]>
+    	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  	<![endif]-->
+  	<script>
+		var _hmt = _hmt || [];
+		(function() {
+		  var hm = document.createElement("script");
+		  hm.src = "//hm.baidu.com/hm.js?94be4b0f9fc5d94cc0d0415ea6761ae9";
+		  var s = document.getElementsByTagName("script")[0]; 
+		  s.parentNode.insertBefore(hm, s);
+		})();
+	</script>
+  	<style type="text/css">
+	  	.docs-content{
+	  		margin-bottom: 10px;
+	  	}
+  	</style>
+  	<style type="text/css">
+		.glyphicon:empty {
+			width: 60px;
+		}
+  	</style>
+  	<style type="text/css">
+  		.docs-nav {
+			text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15);
+			background-color: #1d365d;
+			border-color: rgba(0, 0, 0, 0.2);
+			box-shadow: 0 1px 0 rgba(255, 255, 255, 0.07);
+		}
+  	</style>
+
+
+  	<!-- gantt chart -->
+	<link rel="stylesheet" href="/styles/css/gantt.css">
+
+  	<script src="/styles/js/loader.js"></script>
+	<script type="text/javascript">
+	    google.charts.load('current', {'packages':['gantt']});
+	    google.charts.setOnLoadCallback(drawChart);
+
+	    function drawChart() {
+
+	      var data = new google.visualization.DataTable();
+	      data.addColumn('string', 'Task ID');
+	      data.addColumn('string', 'Task Name');
+	      data.addColumn('string', 'Resource');
+	      data.addColumn('date', 'Start Date');
+	      data.addColumn('date', 'End Date');
+	      data.addColumn('number', 'Duration');
+	      data.addColumn('number', 'Percent Complete');
+	      data.addColumn('string', 'Dependencies');
+
+	      data.addRows([
+	        ['Elect Group Leader', 'Elect Group Leader', 'Leader',
+	         new Date(2016, 8, 14), new Date(2016, 8, 19), null, 100, null],
+	        ['Background Research', 'Background Research', 'research',
+	         new Date(2016, 8, 21), new Date(2016, 9, 10), null, 100, null],
+	        ['Project Website', 'Project Website', 'website',
+	         new Date(2016, 8, 23), new Date(2016, 9, 28), null, 100, null],
+	        ['Requirement Specification', 'Requirement Specification', 'SRS',
+	         new Date(2016, 9, 10), new Date(2016, 10, 14), null, 100, null],
+	        ['Initial Design and Prototype', 'Initial Design and Prototype', 'design & prototype',
+	         new Date(2016, 9, 14), new Date(2016, 10, 11), null, 100, null],
+	        ['Produce Prototype Application v1', 'Produce Prototype Application v1', 'prototype',
+	        new Date(2016, 9, 31), new Date(2016, 10, 23), null, 100, null],
+	        ['Interim Report', 'Writing interim report', 'report',
+	        new Date(2016, 10, 7), new Date(2016, 11, 16), null, 100, null],
+	        ['Consolidate Prototypes', 'Consolidate prototypes', 'prototype',
+	        new Date(2016, 10, 16), new Date(2016, 11, 30), null, 90, null],
+	        ['Web Design', 'Web Design', 'web',
+	        new Date(2016, 11, 16), new Date(2016, 11, 26), null, 0, null],
+	        ['First Web Prototype', 'First Web Prototype', 'web',
+	        new Date(2017, 1, 13), new Date(2017, 2, 10), null, 0, null],
+	        ['Web test & debug', 'Web test & debug', 'web',
+	        new Date(2017, 1, 28), new Date(2017, 2, 24), null, 0, null],
+	        ['PC test & debug', 'PC test & debug', 'test',
+	        new Date(2017, 2, 14), new Date(2017, 3, 7), null, 0, null],
+	        ['Final Report & Software', 'Final Report', 'report',
+	        new Date(2017, 2, 20), new Date(2017, 3, 28), null, 0, null],
+	        ['Individual Report', 'Individual Report', 'report',
+	        new Date(2017, 2, 28), new Date(2017, 3, 28), null, 0, null],
+	        ['Presentation', 'Presentation', 'pre',
+	        new Date(2017, 3, 20), new Date(2017, 4, 3), null, 0, null]
+	      ]);
+
+	      var options = {
+	        height: 500,
+	        gantt: {
+	          trackHeight: 30
+	        }
+	      };
+
+	      var chart = new google.visualization.Gantt(document.getElementById('chart_div'));
+
+	      chart.draw(data, options);
+	    }
+	</script>
+</head>
+
+  <body class="index">
+
+    <header class="navbar navbar-inverse navbar-fixed-top docs-nav" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="/" class="navbar-brand">
+        <img src="/styles/images/logo.jpg">
+      </a>
+    </div>
+    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav">
+        <li>
+          <a href="/">Home</a>
+        </li>
+        <li>
+          <a href="/documents/">Documents</a>
+        </li>
+        <li>
+          <a href="/progress">GRP Progress</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+    <div class="docs-header" id="content">
+  <div class="container">
+  	
+  		<!--
+		    <h1>Progress</h1>
+		    <p>Post on  by <a href="/about">YangyuGao</a></p>
+		-->
+		    <h1>It's our wits that make us men.</h1>
+    
+  </div>
+</div>
+    
+      <div class="banner">
+  <div class="container">
+  	
+    	<img src="/styles/images/github.png"  alt=""/>
+    	<a href="http://github.com/grapeunnc/algodomino">github repo</a>
+    
+  </div>
+</div>
+    
+
+    <div class="gantt">
+  <h3 class="tittle1">Progress</h3>
+  <div id="chart_div"></div>
+</div>
+
+
+<!--
+<div class="container docs-container">
+  <div class="row">
+    <div class="col-md-3">
+      <div class="sidebar hidden-print" role="complementary">
+        <div id="navigation">
+        	<h1>Menu</h1>
+      		<ul class="nav sidenav">
+			  	
+				  	
+				  
+          	</ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-9" role="main">
+      <div class="panel docs-content">
+        <div class="wrapper">
+          <div class="home">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+-->
+    
+    <footer class="footer" role="contentinfo">
+	<div class="container">
+		<p class="copyright">Copyright &copy; 2016-2016 <a href=""><code>YangyuGao</code></a>.</p>
+		<p>Powered by <a href="http://jekyllrb.com">Jekyll</a>, theme from <a href="http://lesscss.cn/">Less</a></p>
+	</div>
+</footer>
+
+<script src="/styles/js/jquery.min.js"></script>
+<script src="/styles/js/bootstrap.min.js"></script>
+<script src="/styles/js/holder.min.js"></script>
+<script src="/styles/js/application.js"></script>
+<script src="/styles/js/lessismore.js"></script>
+
+  </body>
+</html>
