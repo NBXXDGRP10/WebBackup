@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  2017-10-18 Meeting Minutes
-date:   2017-10-18 16:30:00 +0800
+title:  2016-09-20 Meeting Minutes
+date:   2016-09-20 16:45:00 +0800
 categories: Meeting-Minutes
 ---
 
@@ -9,58 +9,65 @@ categories: Meeting-Minutes
 {:toc}
 
 
+
 # GRP Meeting Minutes
 
+#### Date
+2016.9.20
 
-#### Student: 
+#### Time
+		15：00-16：00
 
-Junhao Zhang, Wenzhu Hou(Recorder), Shihe Wang, Jingjie Xu, Botian Zheng
+#### Location
+		SEB 448
 
----
+#### Recorder
+		Muyi Jiang
 
-#### Supervisors: 
+#### Presence
+		Zhengfeng Zhou, Yangyu Gao, Zhe Ren, 
+		Jiaying Sun, Kan Liu, Muyi Jiang
 
-Zheng LU
+#### Discussion:
 
----
+		1. Formal meeting:
+	* 10:00 each Monday	
+	* Prepare agenda before Formal meeting
+	* Agenda should include discussion point and what action will be taken
 
-#### Conference Content: 
+2. Meeting minutes:
+	* What have been discussed and the results
+	* What plan have been made
+	* Group members record meeting minutes in turn
 
-1.		Equipment requirement
+3.	Site:
+	* Pay more attention to the function of website
 
-2.		Software requirement specification
+4.	Brief introduction of Software
+	* Desktop application
+	* Coding language: any language ( Supervisor can provide help in JAVA )
+	* User interface ( Study ourselves )
+	* Target group: classmates
+	* We could show the efficiency and correctness of different kind of sorting algorithms
+	* Choosing heap sort is difficult but may get higher mark
+	* We could allow user to interact with software
 
-3.  	Team Roles:
+5.	The preparation of software
+	* Specify roles for each group member in this project
+	* Do the background research
+	* From advice of supervisor, we could do one sorting algorithm together from beginning, after we all understand the process, we can divide other sorting algorithms to each group member.
+	* Prototype—it is better before mid of December, we could have a prototype running
 
-		The first term: Report
+6.	Report including:
+	* Requirement specification
+	* The process of producing software
+	* What we have done to produce it
 
-		The second term: Software
-
-4.  	Question in Formal meeting:
-
-	a.  Structure of report
-
-	b.  Language and platform
-
-	c.  Requirement from customer
-
-	d.  Recommend tools
-
-	e.  Background: market
-
-5.    	Revise Software Engineering
-
-6.  	  Learn Github
-
-7.  	  Build website
-	
----
-
-
-
-
+#### Next Meeting: 
+28th, October
 
 
-	 
-#### Next Meeting: 7 Nov. 2016   
+
+
+
 
