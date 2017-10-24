@@ -11,7 +11,7 @@ categories: Meeting-Minutes
 
 # GRP Meeting Minutes
 
-#### 18 Oct 2017  
+## 18 Oct 2017  
 
 Student: 
 
@@ -82,7 +82,7 @@ categories: Meeting-Minutes
 {:toc}
 
 
-#### 23 Oct 2017  
+## 23 Oct 2017  
 
 Student: 
 
