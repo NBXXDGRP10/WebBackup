@@ -70,6 +70,7 @@ Next Step:
 
 	 
 Next Informal Meeting: 25 Oct. 2017   
+
 ---
 layout: post
 title:  2017-10-23 Meeting Minutes
@@ -80,8 +81,6 @@ categories: Meeting-Minutes
 * content
 {:toc}
 
-
-# GRP Meeting Minutes
 
 #### 23 Oct 2017  
 
