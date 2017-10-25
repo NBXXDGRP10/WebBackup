@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  2017-10-18 Meeting Minutes
+title:  Meeting Minutes
 date:   2017-10-18 16:30:00 +0800
 categories: Meeting-Minutes
 ---
