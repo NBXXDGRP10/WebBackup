@@ -1,0 +1,37 @@
+# Site settings
+name: Team X
+email: 17858950853@163.com
+author: NBXXDGRP10
+url: https://NBXXDGRP10.github.io
+resume_site: 
+github: https://github.com/NBXXDGRP10/
+baseurl: ''
+description: 'Welcome to Group X'
+meta_description: Group X; GRP blog
+motto: Awesome！
+banner: <a href="http://github.com/grapeunnc/algodomino">github repo</a>
+
+#permalink: /:categories/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
+paginate: 10
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+
+github_username: NBXXDGRP10
+highlighter: rouge
+
+# Build settings
+markdown: kramdown
+
+FB:
+  comments :
+    provider : duoshuo
+    duoshuo:
+        short_name : shiki
+    disqus :
+        short_name : Mei
+    # facebook :
+    #   appid : 123
+    #   num_posts: 5
+    #   width: 580
+    #   colorscheme: light
