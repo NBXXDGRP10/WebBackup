@@ -9,7 +9,7 @@ baseurl: ''
 description: 'Welcome to Team X'
 meta_description: Group X; GRP blog
 motto: Awesome！
-banner: <a href="http://github.com/grapeunnc/algodomino">github repo</a>
+banner: <a href="http://github.com/grapeunnc/algodomino">github report</a>
 
 #permalink: /:categories/:year/:month/:day/:title/
 permalink: /:year/:month/:day/:title/
